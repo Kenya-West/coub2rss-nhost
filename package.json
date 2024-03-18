@@ -1,0 +1,28 @@
+{
+  "name": "coub2rss-nhost",
+  "version": "0.0.1",
+  "description": "A Coub RSS feed creation backend made easy with nhost.io as serverless function",
+  "main": "",
+  "scripts": {
+    "build:functions": "tsc --project tsconfig.json && node dist/functions/get-coub-rss.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coub",
+    "serverless",
+    "functions",
+    "nhost",
+    "nhost.io"
+  ],
+  "author": "Kenya-West",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/xml": "^1.0.11",
+    "typescript": "^5.4.2"
+  }
+}
